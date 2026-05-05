@@ -1,11 +1,12 @@
 import Image from "next/image";
+import {FaBeer} from 'react-icons/fa';
 
 export default function Home() {
   return (
     <>
     <div className="flex justify-center  h-[44vh] flex-col items-center  text-white gap-4">
       <div className="font-bold text-5xl flex gap-2 justify-center items-center">
-        Buy me a Chai <span><img src="/tea.gif" alt="Tea_Gif" width={88} /></span>
+        Buy me a Chai <span><img className="invertImg" src="/tea.gif" alt="Tea_Gif" width={88} /></span>
       </div>
       <p>A crowdfunding platform for creators. Get funded by your fans and follwoers. Start now!</p>
       <div>

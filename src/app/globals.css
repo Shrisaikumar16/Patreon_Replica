@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+.invertImg {
+  filter: invert(0.23);
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

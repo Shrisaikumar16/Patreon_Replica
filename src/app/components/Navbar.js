@@ -18,7 +18,7 @@ const Navbar = () => {
     // fixed w-full top-0 left-0
     <nav className='bg-gray-900 text-white flex justify-between items-center px-4 h-16 '>
         <Link href={"/"} className='logo font-bold text-xl flex gap-2 justify-center items-center'>         
-          <img src='/tea.gif' alt='tea_gif' width={44}></img>  
+          <img className="invertImg" src='/tea.gif' alt='tea_gif' width={44}></img>  
           <span>Get me a chai!</span>
         </Link>
           
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div id="dropdown" className={`${showdropdown?"":"hidden"} bg-gray-600 rounded-xl absolute left-24 z-10 bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44`}>
                 <ul className="p-2 text-sm text-body font-medium" aria-labelledby="dropdownDefaultButton">
                   <li>
-                    <Link href="#" className="inline-flex items-center w-full p-2  hover:bg-gray-500 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Dashboard</Link>
+                    <Link href="/dashboard" className="inline-flex items-center w-full p-2  hover:bg-gray-500 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Dashboard</Link>
                   </li>
                   <li>
                     <Link href="#" className="inline-flex items-center w-full p-2  hover:bg-gray-500 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Your Page</Link>

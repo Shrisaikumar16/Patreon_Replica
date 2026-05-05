@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import CoverImage from '../../../public/Gemini_Generated_Image_csato3csato3csat.png' // 2. Import your image file as an asset
+import { FaCircleUser } from "react-icons/fa6";
 
 const Username = async ({params}) => {
   return (
@@ -35,26 +36,35 @@ const Username = async ({params}) => {
           <h2 className='text-2xl font-bold my-5'>Supporters</h2>
           <ul className='mx-5 text-lg'>
             <li className='my-4 flex gap-2 items-center'>
-              <div>
-                <div id="tooltip-jese" role="tooltip" className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-dark rounded-base shadow-xs opacity-0 tooltip">
-                    Jese Leos
-                    <div className="tooltip-arrow" data-popper-arrow></div>
-                </div>
-                <img data-tooltip-target="tooltip-jese" className="w-10 h-10 rounded-base" src="/docs/images/people/profile-picture-5.jpg" alt="Medium avatar"/>
-              </div>
-              <span>
-
-                Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
-              </span>
-            </li>
-              
-            <li>Shivkumar donated $30 with a message </li>
-            <li>Shivkumar donated $30 with a message</li>
-            <li>Shivkumar donated $30 with a message</li>
-            <li>Shivkumar donated $30 with a message</li>
-            <li>Shivkumar donated $30 with a message</li>
-            <li>Shivkumar donated $30 with a message</li>
-            <li>Shivkumar donated $30 with a message</li>
+                <FaCircleUser className='text-5xl pr-1.5' /> 
+                <span>
+                  Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
+                </span>
+              </li>
+              <li className='my-4 flex gap-2 items-center'>
+                <FaCircleUser className='text-5xl pr-1.5' /> 
+                <span>
+                  Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
+                </span>
+              </li>
+              <li className='my-4 flex gap-2 items-center'>
+                <FaCircleUser className='text-5xl pr-1.5' /> 
+                <span>
+                  Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
+                </span>
+              </li>
+              <li className='my-4 flex gap-2 items-center'>
+                <FaCircleUser className='text-5xl pr-1.5' /> 
+                <span>
+                  Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
+                </span>
+              </li>
+              <li className='my-4 flex gap-2 items-center'>
+                <FaCircleUser className='text-5xl pr-1.5' /> 
+                <span>
+                  Shivkumar donated <span className='font-bold'> $30 </span>  with a message "Love you bro, love your work"
+                </span>
+              </li>
           </ul>
         </div>
 
